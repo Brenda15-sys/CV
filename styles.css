@@ -60,7 +60,7 @@ h5 {
 
 /*NAVBAR*/
 
-.container {
+.container-fluid {
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -86,7 +86,7 @@ h5 {
 
 .navbar li {
   margin-left: 20px;
-}
+} 
 
 .navbar a {
   color: white;
@@ -96,10 +96,37 @@ h5 {
   font-weight: bold;
 }
 
-.logo {
+.navbar-brand {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large;
+  font-size:x-large;
   font-weight: bold;
+  
+}
+
+
+
+/**************************************************************************
+                       HOME
+/**************************************************************************/
+
+#download-now {
+  background-color: hsl(337, 57%, 46%);
+  box-shadow: 1px 2px #004477;
+  border-radius: 4px;
+}
+
+#download-now:hover {
+  background-color: #004477;
+  color: beige;
+  border: 1px solid hsl(69, 57%);
+}
+
+h2 {
+  color: dimgrey;
+}
+
+.loop-text {
+  font-size: large;
 }
 
 /**************************************************************************
@@ -205,11 +232,13 @@ lable {
 }
 
 body {
-  background-color: thist;
+  background: darkcya;
+  box-shadow: rgb(255, 0, 0);
 }
 
 p {
   font-style: italic;
+  text-decoration: none;
 }
 
 #grid-container {
